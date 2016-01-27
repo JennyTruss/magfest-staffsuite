@@ -1,0 +1,47 @@
+<h2 class="card-header page-title">Menu</h2>
+
+<div class="card-block">
+  <div class="menu">
+    <div class="card-deck-wrapper menu-day" ng-repeat="day in menu">
+      <div class="card-deck">
+        <div class="card card-inverse text-xs-center menu-meal menu-meal-{{meal.meal | lowercase}}" ui-sref=".menu-details({ dayid : $parent.$index, mealid : $index })" ng-click="mealDetails()" ng-repeat="meal in day.meals">
+          <p class="card-text text-muted" ng-if="day.showDate">
+            {{meal.timeStart | date:'EEE':'EST'}} {{meal.meal}}
+            {{meal.timeStart | date:'ha':'EST' | lowercase}}-{{meal.timeEnd | date:'ha':'EST' | lowercase}}
+          </p>
+          <p class="card-title">{{meal.main}}</p>
+          <p class="card-text veg-option" ng-show="meal.vegOption.length">Veg Option : {{meal.vegOption}}</p>
+          <p class="card-text small" ng-show="meal.note.length">{{meal.note}}</p>
+          <div class="card-footer">
+            <p class="card-text text-muted btm-click">Click for details&hellip;</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- END .card-deck-wrapper -->
+  </div>
+  <hr>
+  <p><strong>Disclaimers:</strong></p>
+  <ul>
+    <li>The menu is subject to change at any moment at the discretion of the Chefs.</li>
+    <li>Due to many health/food restrictions of low sodium/seasonings, meals are prepared under-seasoned. We will have salt and pepper available on the side to allow you to season your meal according to your personal preferences.</li>
+    <li>All side items, with the exception of the curry, are cooked separately from the meat. The vegetarian curry is prepared separately.</li>
+    <li>We have made every effort to accomodate <strong>most</strong> food restrictions in planning the menu. We are sorry for the inconvenience, but we are unable to accomodate all requests.</li>
+    <li>We do not have the full functionality and staff to prepare individual meals.</li>
+    <li>We do not purchase, and therefore do not serve seafood of any kind.</li>
+    <li>We do not serve sodas.</li>
+    <li>Absolutely no alcohol is allowed while the suite is open.</li>
+    <li>If you require a specific item or brand, it is recommended that you bring some from home. The Staff Suite cannot guarantee the purchasing of specific items in the quantity required. Any items brought from home to use in conjunction with Staff Suite items is recommended to be kept in your room. We cannot guarantee that items will not be taken, consumed, or thrown away if stored in the suite.</li>
+    <li>Although it was provided during MAGFest 13, the Staff Suite has decided to not provide Gluten Free bread as there was a wide variety of preferences for brand. Instead, we will have lettuce available as a bread alternative.</li>
+    <li>With the exception of overnight and leftovers on Sunday, each meal is one serving per person unless seconds are called. There are no serving limits during overnight. Hot food will be available overnight until it is gone or 4am, whichever comes first.</li>
+  </ul>
+
+</div>
+
+<!-- MODAL -->
+  <div class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div ui-view></div>
+      </div>
+    </div>
+  </div>

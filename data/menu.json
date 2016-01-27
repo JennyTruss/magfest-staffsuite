@@ -1,0 +1,773 @@
+[
+  {
+    "title" : "Thursday",
+    "showDate" : true,
+    "date" : 1455771600000,
+    "meals" : [
+      {
+        "meal" : "Breakfast",
+        "foodPickup" : false,
+        "main" : "Cereal",
+        "vegOption" : "",
+        "note" : "Variety of single serve cereals. Gluten-free options available.",
+        "snackItem" : true,
+        "timeStart" : 1455796800000,
+        "timeEnd" : 1455811200000,
+        "items" : [
+          {
+            "item" : "Cereal",
+            "description" : "Variety of cereal options. To be determined.",
+            "ingredients" : [
+              {
+                "ingredient" : "",
+                "contains" : ""
+              }
+            ]
+          },
+          {
+            "item" : "Milk",
+            "description" : "Option of milk or Soy milk"
+          }
+        ]
+      },
+      {
+        "meal" : "Lunch",
+        "foodPickup" : true,
+        "main" : "Sandwich and/or Salad",
+        "vegOption" : "",
+        "note" : "Option of 2 Sandwiches, salad, or 1 sandwich and small salad. Lettuce wrap available in place of bread.",
+        "snackItem" : true,
+        "timeStart" : 1455814800000,
+        "timeEnd" : 1455829200000,
+        "items" : [
+          {
+            "item" : "Sandwiches",
+            "description" : "Any combination of any of the below options on 2 sandwiches. Limit 1 meat option per sandwich. Limit 1 slice of cheese per sandwich, except for cheese only sandwiches.",
+            "ingredients" : [
+              {
+                "ingredient" : "Whole Wheat Bread",
+                "contains" : "Whole Wheat Flour, Water, Wheat Gluten, High Fructose Corn Syrup, Contains or Less of Each of the Following: Salt, Yeast, Soybean Oil, Molasses, Wheat Starch, Calcium Propionate and Citric Acid (Preservatives), DATEM, Guar Gum, Honey, Calcium Sulfate, Sodium Stearoyl Lactylate, Monoglycerides, Ethoxylated Mono and Diglycerides, Calcium Stearate, Silicon Dioxide, Enzymes, Soy Flour, Ascorbic Acid (Dough Conditioner), Hydroxylated Soy Lecithin, Ammonium Sulfate, Azodicarbonamide, Soy Lecithin, Calcium Silicate. Contains: Wheat and Soy."
+              },
+              {
+                "ingredient" : "Romaine Lettuce",
+                "contains" : "Can be used instead of bread."
+              },
+              {
+                "ingredient" : "Deli Ham"
+              },
+              {
+                "ingredient" : "Deli Turkey"
+              },
+              {
+                "ingredient" : "American Cheese"
+              },
+              {
+                "ingredient" : "Jif Creamy Peanut Butter",
+                "contains" : "MADE FROM ROASTED PEANUTS AND SUGAR, CONTAINS OR LESS OF: MOLASSES, FULLY HYDROGENATED VEGETABLE OILS (RAPESEED AND SOYBEAN), MONO AND DIGLYCERIDES, SALT. Kosher. Gluten Free. Non GMO."
+              },
+              {
+                "ingredient" : "Welch's Concord Grape Jelly",
+                "contains" : "Grapes Concord, Corn Syrup, Corn Syrup High Fructose, Fruit Pectin, Citric Acid, Sodium Citrate"
+              }
+            ]
+          },
+          {
+            "item" : "Tossed Salad",
+            "description" : "Includes a fresh and colorful mix of lettuce, purple cabbage and carrots. Choice of Ranch or Italian dressing."
+          },
+          {
+            "item" : "1 Sandwich and Small salad",
+            "description" : "1 sandwich with any of the choices and small tossed salad with choice of Ranch or Italian dressing."
+          }
+        ]
+      },
+      {
+        "meal" : "Dinner",
+        "foodPickup" : true,
+        "main" : "Maui Pulled Pork",
+        "vegOption" : "Black Beans",
+        "snackItem" : false,
+        "timeStart" : 1455832800000,
+        "timeEnd" : 1455847200000,
+        "items" : [
+          {
+            "item" : "Maui Pulled Pork",
+            "ingredients" : [
+              {"ingredient" : "Pork Loin"},
+              {"ingredient" : "Onion"},
+              {"ingredient" : "Vinegar"},
+              {"ingredient" : "Pineapple"},
+              {"ingredient" : "Brown Sugar"},
+              {"ingredient" : "Garlic"},
+              {"ingredient" : "Ginger"}
+            ]
+          },
+          {
+            "item" : "Black Beans",
+            "description" : "Vegetarian Option in place of Pork."
+          },
+          {"item" : "Corn"},
+          {"item" : "Long Grain Rice"}
+        ]
+      },
+      {
+        "meal" : "Overnight",
+        "foodPickup" : false,
+        "snackItem" : false,
+        "note" : "Unlimited servings. Service may end early if food runs out.",
+        "vegOption" : "Black Beans",
+        "main" : "Maui Pulled Pork",
+        "timeStart" : 1455847200000,
+        "timeEnd" : 1455872400000,
+        "items" : [
+          {
+            "item" : "Maui Pulled Pork",
+            "ingredients" : [
+              {"ingredient" : "Pork Loin"},
+              {"ingredient" : "Onion"},
+              {"ingredient" : "Vinegar"},
+              {"ingredient" : "Pineapple"},
+              {"ingredient" : "Brown Sugar"},
+              {"ingredient" : "Garlic"},
+              {"ingredient" : "Ginger"}
+            ]
+          },
+          {
+            "item" : "Black Beans",
+            "description" : "Vegetarian Option in place of Pork."
+          },
+          {"item" : "Corn"},
+          {"item" : "Long Grain Rice"}
+        ]
+      }
+    ]
+  },
+  {
+    "title" : "Friday",
+    "showDate" : true,
+    "date" : 1455858000000,
+    "meals" : [
+      {
+        "meal" : "Breakfast",
+        "foodPickup" : false,
+        "snackItem" : true,
+        "main" : "Oatmeal",
+        "vegOption" : "",
+        "note" : "Slow cooked. Gluten-free.",
+        "timeStart" : 1455883200000,
+        "timeEnd" : 1455897600000,
+        "items" : [
+          {
+            "item" : "Steel Cut Oats",
+            "description" : "Prepared plain.",
+            "ingredients" : [
+              {
+                "ingredient" : "GF Harvest Steel Cut Oats",
+                "contains" : "Gluten Free Oat Groats"
+              }
+            ]
+          },
+          {
+            "item" : "Add-Ins",
+            "description" : "Items available to add to your oatmeal.",
+            "ingredients" : [
+              {"ingredient" : "Margarine"},
+              {"ingredient" : "Sugar"},
+              {"ingredient" : "Brown Sugar"},
+              {"ingredient" : "Cinnamon"},
+              {"ingredient" : "Raisins"},
+              {"ingredient" : "Maple Syrup"},
+              {
+                "ingredient" : "Milk",
+                "contains" : "Option of dairy milk or soy milk"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "meal" : "Lunch",
+        "foodPickup" : true,
+        "main" : "Sandwich and/or Salad",
+        "vegOption" : "",
+        "note" : "Option of 2 Sandwiches, salad, or 1 sandwich and small salad. Lettuce wrap available in place of bread.",
+        "snackItem" : true,
+        "timeStart" : 1455901200000,
+        "timeEnd" : 1455915600000,
+        "items" : [
+          {
+            "item" : "Sandwiches",
+            "description" : "Any combination of any of the below options on 2 sandwiches. Limit 1 meat option per sandwich. Limit 1 slice of cheese per sandwich, except for cheese only sandwiches.",
+            "ingredients" : [
+              {
+                "ingredient" : "Whole Wheat Bread",
+                "contains" : "Whole Wheat Flour, Water, Wheat Gluten, High Fructose Corn Syrup, Contains or Less of Each of the Following: Salt, Yeast, Soybean Oil, Molasses, Wheat Starch, Calcium Propionate and Citric Acid (Preservatives), DATEM, Guar Gum, Honey, Calcium Sulfate, Sodium Stearoyl Lactylate, Monoglycerides, Ethoxylated Mono and Diglycerides, Calcium Stearate, Silicon Dioxide, Enzymes, Soy Flour, Ascorbic Acid (Dough Conditioner), Hydroxylated Soy Lecithin, Ammonium Sulfate, Azodicarbonamide, Soy Lecithin, Calcium Silicate. Contains: Wheat and Soy."
+              },
+              {
+                "ingredient" : "Romaine Lettuce",
+                "contains" : "Can be used instead of bread."
+              },
+              {
+                "ingredient" : "Deli Ham"
+              },
+              {
+                "ingredient" : "Deli Turkey"
+              },
+              {
+                "ingredient" : "American Cheese"
+              },
+              {
+                "ingredient" : "Jif Creamy Peanut Butter",
+                "contains" : "MADE FROM ROASTED PEANUTS AND SUGAR, CONTAINS OR LESS OF: MOLASSES, FULLY HYDROGENATED VEGETABLE OILS (RAPESEED AND SOYBEAN), MONO AND DIGLYCERIDES, SALT. Kosher. Gluten Free. Non GMO."
+              },
+              {
+                "ingredient" : "Welch's Concord Grape Jelly",
+                "contains" : "Grapes Concord, Corn Syrup, Corn Syrup High Fructose, Fruit Pectin, Citric Acid, Sodium Citrate"
+              }
+            ]
+          },
+          {
+            "item" : "Tossed Salad",
+            "description" : "Includes a fresh and colorful mix of lettuce, purple cabbage and carrots. Choice of Ranch or Italian dressing."
+          },
+          {
+            "item" : "1 Sandwich and Small salad",
+            "description" : "1 sandwich with any of the choices and small tossed salad with choice of Ranch or Italian dressing."
+          }
+        ]
+      },
+      {
+        "meal" : "Dinner",
+        "foodPickup" : true,
+        "snackItem" : false,
+        "main" : "Japanese Style Curry Chicken",
+        "vegOption" : "Curried Mung Beans",
+        "note" : "Gluten-free. Powdered spice mix will be available on the side to add according to personal preference.",
+        "timeStart" : 1455919200000,
+        "timeEnd" : 1455933600000,
+        "items" : [
+          {
+            "item" : "Japanese Style Curry Chicken",
+            "description" : "Mild. Gluten-free, vegan roux. Cooked with carrots and potatoes.",
+            "ingredients" : [
+              {
+                "ingredient" : "Chicken",
+                "contains" : "Boneless, skinless breast meat"
+              },
+              {
+                "ingredient" : "Gluten-free, vegan roux",
+                "contains" : "Rice flour, Extra light olive oil (Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia.)"
+              },
+              {
+                "ingredient" : "Curry Powder",
+                "contains" : "Cumin, Cardamom, Coriander, Tumeric, Ground Mustard, Cayenne"
+              },
+              {
+                "ingredient" : "Garam Masala",
+                "contains" : "Coriander, Cumin, Peppercorns, Black Cumin, Dry Ginger, Black Cardamom, Cloves, Cinnamon, Bay Leaves"
+              },
+              {"ingredient" : "Potatoes"},
+              {"ingredient" : "Carrots"},
+              {
+                "ingredient" : "Onions",
+                "contains" : "Pureed"
+              },
+              {
+                "ingredient" : "Apple",
+                "contains" : "Pureed"
+              }
+            ]
+          },
+          {
+            "item" : "Curried Mung Beans",
+            "description" : "Vegetarian Option in place of chicken",
+            "ingredients" : [
+              {"ingredient" : "Mung Beans"},
+              {
+                "ingredient" : "Gluten-free, vegan roux",
+                "contains" : "Rice flour, Extra light olive oil (Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia.)"
+              },
+              {
+                "ingredient" : "Curry Powder",
+                "contains" : "Cumin, Cardamom, Coriander, Tumeric, Ground Mustard, Cayenne"
+              },
+              {
+                "ingredient" : "Garam Masala",
+                "contains" : "Coriander, Cumin, Peppercorns, Black Cumin, Dry Ginger, Black Cardamom, Cloves, Cinnamon, Bay Leaves"
+              },
+              {"ingredient" : "Potatoes"},
+              {"ingredient" : "Carrots"},
+              {
+                "ingredient" : "Onions",
+                "contains" : "Pureed"
+              }
+            ]
+          },
+          {
+            "item" : "Long Grain Rice"
+          }
+        ]
+      },
+      {
+        "meal" : "Overnight",
+        "foodPickup" : false,
+        "snackItem" : false,
+        "main" : "Japanese Style Curry Chicken",
+        "vegOption" : "Curried Mung Beans.",
+        "note" : "Guten-free. Powdered spice mix will be available on the side to add according to personal preference. Unlimited servings. Service may end early if food runs out.",
+        "timeStart" : 1455933600000,
+        "timeEnd" : 1455958800000,
+        "items" : [
+          {
+            "item" : "Japanese Style Curry Chicken",
+            "description" : "Mild. Gluten-free, vegan roux. Cooked with carrots and potatoes.",
+            "ingredients" : [
+              {
+                "ingredient" : "Chicken",
+                "contains" : "Boneless, skinless breast meat"
+              },
+              {
+                "ingredient" : "Gluten-free, vegan roux",
+                "contains" : "Rice flour, Extra light olive oil (Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia.)"
+              },
+              {
+                "ingredient" : "Curry Powder",
+                "contains" : "Cumin, Cardamom, Coriander, Tumeric, Ground Mustard, Cayenne"
+              },
+              {
+                "ingredient" : "Garam Masala",
+                "contains" : "Coriander, Cumin, Peppercorns, Black Cumin, Dry Ginger, Black Cardamom, Cloves, Cinnamon, Bay Leaves"
+              },
+              {"ingredient" : "Potatoes"},
+              {"ingredient" : "Carrots"},
+              {
+                "ingredient" : "Onions",
+                "contains" : "Pureed"
+              },
+              {
+                "ingredient" : "Apple",
+                "contains" : "Pureed"
+              }
+            ]
+          },
+          {
+            "item" : "Curried Mung Beans",
+            "description" : "Vegetarian Option in place of chicken",
+            "ingredients" : [
+              {"ingredient" : "Mung Beans"},
+              {
+                "ingredient" : "Gluten-free, vegan roux",
+                "contains" : "Rice flour, Extra light olive oil (Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia.)"
+              },
+              {
+                "ingredient" : "Curry Powder",
+                "contains" : "Cumin, Cardamom, Coriander, Tumeric, Ground Mustard, Cayenne"
+              },
+              {
+                "ingredient" : "Garam Masala",
+                "contains" : "Coriander, Cumin, Peppercorns, Black Cumin, Dry Ginger, Black Cardamom, Cloves, Cinnamon, Bay Leaves"
+              },
+              {"ingredient" : "Potatoes"},
+              {"ingredient" : "Carrots"},
+              {
+                "ingredient" : "Onions",
+                "contains" : "Pureed"
+              }
+            ]
+          },
+          {
+            "item" : "Long Grain Rice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title" : "Saturday",
+    "showDate" : true,
+    "date" : 1455944400000,
+    "meals" : [
+      {
+        "meal" : "Breakfast",
+        "foodPickup" : false,
+        "snackItem" : true,
+        "main" : "Pancakes",
+        "vegOption" : "",
+        "note" : "Egg-free. Dairy-free. Gluten-free cereal available.",
+        "timeStart" : 1455969600000,
+        "timeEnd" : 1455984000000,
+        "items" : [
+          {
+            "item" : "Pancakes",
+            "description" : "Contains no egg and no milk.",
+            "ingredients" : [
+              {
+                "ingredient" : "Bisquick",
+                "contains" : "Enriched Flour Bleached (wheat flour, niacin, iron, thiamin mononitrate, riboflavin, folic acid), Partially Hydrogenated Soybean and/or Cottonseed Oil, Leavening (baking soda, sodium aluminum phosphate, monocalcium phosphate), Dextrose, Salt."
+              },
+              {"ingredient" : "Granulated Sugar"},
+              {
+                "ingredient" : "Vanilla Extract",
+                "contains" : "Vanilla bean extractives in water, and alcohol (35%)."
+              },
+              {
+                "ingredient" : "Baking Powder",
+                "contains" : "SODIUM ACID, PYROPHOSPHATE, SODIUM BICARBONATE, CORN STARCH AND MONOCALCIUM PHOSPHATE. GLUTEN-FREE."
+              }
+            ]
+          },
+          {
+            "item" : "Gluten-free Cereal",
+            "description" : "Option of dairy or soy milk.",
+            "ingredients" : [
+              {
+                "ingredient" : "Gluten Free Rice Chex",
+                "contains" : "Whole Grain Rice, Rice, Sugar, Salt, Molasses, Vitamin E (mixed tocopherols),and BHT Added to preserve Freshness. Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "meal" : "Lunch",
+        "foodPickup" : true,
+        "main" : "Sandwich and/or Salad",
+        "vegOption" : "",
+        "note" : "Option of 2 Sandwiches, salad, or 1 sandwich and small salad. Lettuce wrap available in place of bread.",
+        "snackItem" : true,
+        "timeStart" : 1455987600000,
+        "timeEnd" : 1456002000000,
+        "items" : [
+          {
+            "item" : "Sandwiches",
+            "description" : "Any combination of any of the below options on 2 sandwiches. Limit 1 meat option per sandwich. Limit 1 slice of cheese per sandwich, except for cheese only sandwiches.",
+            "ingredients" : [
+              {
+                "ingredient" : "Whole Wheat Bread",
+                "contains" : "Whole Wheat Flour, Water, Wheat Gluten, High Fructose Corn Syrup, Contains or Less of Each of the Following: Salt, Yeast, Soybean Oil, Molasses, Wheat Starch, Calcium Propionate and Citric Acid (Preservatives), DATEM, Guar Gum, Honey, Calcium Sulfate, Sodium Stearoyl Lactylate, Monoglycerides, Ethoxylated Mono and Diglycerides, Calcium Stearate, Silicon Dioxide, Enzymes, Soy Flour, Ascorbic Acid (Dough Conditioner), Hydroxylated Soy Lecithin, Ammonium Sulfate, Azodicarbonamide, Soy Lecithin, Calcium Silicate. Contains: Wheat and Soy."
+              },
+              {
+                "ingredient" : "Romaine Lettuce",
+                "contains" : "Can be used instead of bread."
+              },
+              {
+                "ingredient" : "Deli Ham"
+              },
+              {
+                "ingredient" : "Deli Turkey"
+              },
+              {
+                "ingredient" : "American Cheese"
+              },
+              {
+                "ingredient" : "Jif Creamy Peanut Butter",
+                "contains" : "MADE FROM ROASTED PEANUTS AND SUGAR, CONTAINS OR LESS OF: MOLASSES, FULLY HYDROGENATED VEGETABLE OILS (RAPESEED AND SOYBEAN), MONO AND DIGLYCERIDES, SALT. Kosher. Gluten Free. Non GMO."
+              },
+              {
+                "ingredient" : "Welch's Concord Grape Jelly",
+                "contains" : "Grapes Concord, Corn Syrup, Corn Syrup High Fructose, Fruit Pectin, Citric Acid, Sodium Citrate"
+              }
+            ]
+          },
+          {
+            "item" : "Tossed Salad",
+            "description" : "Includes a fresh and colorful mix of lettuce, purple cabbage and carrots. Choice of Ranch or Italian dressing."
+          },
+          {
+            "item" : "1 Sandwich and Small salad",
+            "description" : "1 sandwich with any of the choices and small tossed salad with choice of Ranch or Italian dressing."
+          }
+        ]
+      },
+      {
+        "meal" : "Dinner",
+        "foodPickup" : true,
+        "snackItem" : false,
+        "main" : "Beef Stew",
+        "vegOption" : "Grilled tofu",
+        "note" : "Gluten-free.",
+        "timeStart" : 1456005600000,
+        "timeEnd" : 1456020000000,
+        "items" : [
+          {
+            "item" : "Beef Stew",
+            "description" : "Gluten-free.",
+            "ingredients" : [
+              {"ingredient" : "Beef"},
+              {
+                "ingredient" : "Gluten-free, vegan roux",
+                "contains" : "Rice flour, Extra light olive oil (Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia.)"
+              },
+              {
+                "ingredient" : "Extra light olive oil",
+                "contains" : "Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia."
+              }
+            ]
+          },
+          {
+            "item" : "Grilled Tofu",
+            "description" : "Vegetarian Option in place of Beef. Sliced thin."
+          },
+          {
+            "item" : "Mash Potatoes",
+            "description" : "Vegetarian. Margarine will be available to add.",
+            "ingredients" : [
+              {"ingredient" : "Potatoes"},
+              {
+                "ingredient" : "Extra light olive oil",
+                "contains" : "Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia."
+              }
+            ]
+          },
+          {
+            "item" : "Corn",
+            "description" : "Canned and heated in roaster"
+          }
+        ]
+      },
+      {
+        "meal" : "Overnight",
+        "foodPickup" : false,
+        "snackItem" : false,
+        "main" : "Beef Stew",
+        "vegOption" : "Grilled tofu",
+        "note" : "Gluten-free. Unlimited servings. Service may end early if food runs out.",
+        "timeStart" : 1456020000000,
+        "timeEnd" : 1456045200000,
+        "items" : [
+          {
+            "item" : "Beef Stew",
+            "description" : "Gluten-free.",
+            "ingredients" : [
+              {"ingredient" : "Beef"},
+              {
+                "ingredient" : "Gluten-free, vegan roux",
+                "contains" : "Rice flour, Extra light olive oil (Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia.)"
+              },
+              {
+                "ingredient" : "Extra light olive oil",
+                "contains" : "Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia."
+              }
+            ]
+          },
+          {
+            "item" : "Grilled Tofu",
+            "description" : "Vegetarian Option in place of Beef. Sliced thin. Marinade and seasoning to be determined."
+          },
+          {
+            "item" : "Mash Potatoes",
+            "description" : "Vegetarian. Margarine will be available to add.",
+            "ingredients" : [
+              {"ingredient" : "Potatoes"},
+              {
+                "ingredient" : "Extra light olive oil",
+                "contains" : "Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia."
+              }
+            ]
+          },
+          {
+            "item" : "Corn",
+            "description" : "Canned and heated in roaster"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title" : "Sunday",
+    "showDate" : true,
+    "date" : 1456030800000,
+    "meals" : [
+      {
+        "meal" : "Breakfast",
+        "foodPickup" : false,
+        "snackItem" : true,
+        "main" : "Bread Pudding / Rice Pudding",
+        "vegOption" : "",
+        "note" : "",
+        "timeStart" : 1456056000000,
+        "timeEnd" : 1456070400000,
+        "items" : [
+          {
+            "item" : "Bread Pudding",
+            "description" : "Contains eggs and dairy",
+            "ingredients" : [
+              {
+                "ingredient" : "Whole Wheat Bread",
+                "contains" : "Whole Wheat Flour, Water, Wheat Gluten, High Fructose Corn Syrup, Contains or Less of Each of the Following: Salt, Yeast, Soybean Oil, Molasses, Wheat Starch, Calcium Propionate and Citric Acid (Preservatives), DATEM, Guar Gum, Honey, Calcium Sulfate, Sodium Stearoyl Lactylate, Monoglycerides, Ethoxylated Mono and Diglycerides, Calcium Stearate, Silicon Dioxide, Enzymes, Soy Flour, Ascorbic Acid (Dough Conditioner), Hydroxylated Soy Lecithin, Ammonium Sulfate, Azodicarbonamide, Soy Lecithin, Calcium Silicate. Contains: Wheat and Soy."
+              },
+              {
+                "ingredient" : "Extra Light Olive Oil",
+                "contains" : "Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia."
+              },
+              {"ingredient" : "Eggs"},
+              {"ingredient" : "Dairy Milk"},
+              {"ingredient" : "Sugar"},
+              {"ingredient" : "Cinnamon"},
+              {"ingredient" : "Nutmeg"},
+              {
+                "ingredient" : "Vanilla Extract",
+                "contains" : "Vanilla bean extractives in water, and alcohol (35%)."
+              }
+            ]
+          },
+          {
+            "item" : "Rice Pudding",
+            "description" : "Contains eggs and dairy",
+            "ingredients" : [
+              {"ingredient" : "Long Grain Rice"},
+              {
+                "ingredient" : "Extra Light Olive Oil",
+                "contains" : "Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia."
+              },
+              {"ingredient" : "Eggs"},
+              {"ingredient" : "Dairy Milk"},
+              {"ingredient" : "Sugar"},
+              {"ingredient" : "Cinnamon"},
+              {"ingredient" : "Nutmeg"},
+              {
+                "ingredient" : "Vanilla Extract",
+                "contains" : "Vanilla bean extractives in water, and alcohol (35%)."
+              }
+            ]
+          },
+          {
+            "item" : "Gluten-free Cereal",
+            "description" : "Option of dairy or soy milk.",
+            "ingredients" : [
+              {
+                "ingredient" : "Gluten Free Rice Chex",
+                "contains" : "Whole Grain Rice, Rice, Sugar, Salt, Molasses, Vitamin E (mixed tocopherols),and BHT Added to preserve Freshness. Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin B2 (riboflavin), Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "meal" : "Lunch",
+        "foodPickup" : false,
+        "snackItem" : true,
+        "main" : "Leftovers",
+        "vegOption" : "",
+        "note" : "Everything must GO!",
+        "timeStart" : 1456070400000,
+        "timeEnd" : 1456081200000,
+        "items" : [
+          {
+            "item" : "Any food remaining from earlier in the weekend, reheated.",
+            "description" : "Items and quantity varies. No serving size restrictions. Feel free to bring tupperware to take some home. Everything must go."
+          }
+        ]
+      }
+    ]
+  },
+    {
+      "title" : "Snacks & Beverages",
+      "showDate" : false,
+      "meals" : [
+        {
+          "meal" : "Snacks",
+          "main" : "Snacks",
+          "timeStart" : 1455796800000,
+          "timeEnd" : 1456081200000,
+          "items" : [
+            {
+              "item" : "Whole Fruit",
+              "description" : "Selection of fruit. Items to be determined."
+            },
+            {
+              "item" : "Utz Potato Chips",
+              "description" : "Made from fresh whol potatoes slice thin. Gluten-free. Kosher. No Cholesterol. No Hydrogenated Fat. 0g Trans Fat. No Preservatives.",
+              "ingredients" : [
+                {
+                  "ingredient" : "Regular",
+                  "contains" : "Potatoes, cottonseed oil, and salt."
+                }
+              ]
+            },
+            {
+              "item" : "Veggie Straws",
+              "description" : "Airy, crunchy Straws combine garden-grown potatoes and ripe vegetables to form a better-for-you snack that has 30% less fat than the leading potato chip* and allows for 38 straws per serving. Gluten-free. Non-GMO. Kosher. Cholesterol-free. No artificial flavors or preservatives.",
+              "ingredients" : [
+                {
+                  "ingredient" : "Sea Salt",
+                  "contains" : "VEGGIE STRAWS (POTATO STARCH, POTATO FLOUR, CORN STARCH, TOMATO PASTE, SPINACH POWDER, SALT, POTASSIUM CHLORIDE, SUGAR, BEETROOT POWDER [COLOR], TURMERIC, CANOLA OIL AND/OR SAFFLOWER OIL AND/OR SUNFLOWER OIL, SEA SALT)."
+                },
+                {
+                  "ingredient" : "Zesty Ranch",
+                  "contains" : "VEGGIE STRAWS (POTATO STARCH, POTATO FLOUR, CORN STARCH, TOMATO PASTE, SPINACH POWDER, SALT, POTASSIUM CHLORIDE, SUGAR, BEETROOT POWDER [COLOR], TURMERIC, CANOLA OIL AND/OR SAFFLOWER OIL AND/OR SUNFLOWER OIL, BUTTERMILK, COCONUT OIL, GARLIC POWDER, NATURAL FLAVORS, YEAST EXTRACT, ONION POWDER, TOMATO POWDER, DEXTROSE, SOUR CREAM [CREAM, NONFAT MILK, CULTURE, CULTURED NONFAT MILK, CITRIC ACID, LACTIC ACID], SPICES [INCLUDING CELERY SEEDS], PAPRIKA, VINEGAR, MALIC ACID, SODIUM CASEINATE).  CONTAINS: MILK"
+                }
+              ]
+            },
+            {
+              "item" : "Nutri Grain Bars",
+              "description" : "Nutri Grain Bars are made with Whole Grain, is a good source of fiber, made with real fruit.",
+              "ingredients" : [
+                {
+                  "ingredient" : "Apple Cinnamon",
+                  "contains" : "CRUST: WHOLE GRAIN OATS, ENRICHED FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, VITAMIN B1 [THIAMIN MONONITRATE], VITAMIN B2 [RIBOFLAVIN], FOLIC ACID), WHOLE WHEAT FLOUR, SOYBEAN AND/OR CANOLA OIL, SOLUBLE CORN FIBER, SUGAR, DEXTROSE, FRUCTOSE, CALCIUM CARBONATE, WHEY, WHEAT BRAN, SALT, CELLULOSE, POTASSIUM BICARBONATE, NATURAL AND ARTIFICIAL FLAVOR, MONO- AND DIGLYCERIDES, SOY LECITHIN, WHEAT GLUTEN, NIACINAMIDE, VITAMIN A PALMITATE, CARRAGEENAN, ZINC OXIDE, REDUCED IRON, GUAR GUM, VITAMIN B6 (PYRODOXINE HYDROCHLORIDE), VITAMIN B1 (THIAMIN HYDROCHLORIDE), VITAMIN B2 (RIBOFLAVIN), FILLING: INVERT SUGAR, CORN SYRUP, APPLE PUREE CONCENTRATE, GLYCERIN, SUGAR, MODIFIED CORN STARCH, SODIUM ALGINATE, MALIC ACID, METHYLCELLULOSE, DICALCIUM PHOSPHATE, CINNAMON, CITRIC ACID, CARAMEL COLOR. CONTAINS WHEAT, MILK AND SOY INGREDIENTS."
+                },
+                {
+                  "ingredient" : "Blueberry",
+                  "contains" : "CRUST: WHOLE GRAIN OATS, ENRICHED FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, VITAMIN B1 [THIAMIN MONONITRATE], VITAMIN B2 [RIBOFLAVIN], FOLIC ACID), WHOLE WHEAT FLOUR, SOYBEAN AND/OR CANOLA OIL, SOLUBLE CORN FIBER, SUGAR, DEXTROSE, FRUCTOSE, CALCIUM CARBONATE, WHEY, WHEAT BRAN, SALT, CELLULOSE, POTASSIUM BICARBONATE, NATURAL AND ARTIFICIAL FLAVOR, MONO- AND DIGLYCERIDES, SOY LECITHIN, WHEAT GLUTEN, NIACINAMIDE, VITAMIN A PALMITATE, CARRAGEENAN, ZINC OXIDE, REDUCED IRON, GUAR GUM, VITAMIN B6 (PYRODOXINE HYDROCHLORIDE), VITAMIN B1 (THIAMIN HYDROCHLORIDE), VITAMIN B2 (RIBOFLAVIN), FILLING: INVERT SUGAR, CORN SYRUP, BLUEBERRY PUREE CONCENTRATE, GLYCERIN, SUGAR, MODIFIED CORN STARCH, SODIUM ALGINATE, CITRIC ACID, DICALCIUM PHOSPHATE, METHYLCELLULOSE, MALIC ACID, BLUEBERRY JUICE CONCENTRATE, NATURAL AND ARTIFICIAL FLAVOR, RED 40, BLUE 1. CONTAINS WHEAT, MILK AND SOY INGREDIENTS."
+                },
+                {
+                  "ingredient" : "Strawberry",
+                  "contains" : "CRUST: WHOLE GRAIN OATS, ENRICHED FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, VITAMIN B1 [THIAMIN MONONITRATE], VITAMIN B2 [RIBOFLAVIN], FOLIC ACID), WHOLE WHEAT FLOUR, SOYBEAN AND/OR CANOLA OIL, SOLUBLE CORN FIBER, SUGAR, DEXTROSE, FRUCTOSE, CALCIUM CARBONATE, WHEY, WHEAT BRAN, SALT, CELLULOSE, POTASSIUM BICARBONATE, NATURAL AND ARTIFICIAL FLAVOR, MONO- AND DIGLYCERIDES, SOY LECITHIN, WHEAT GLUTEN, NIACINAMIDE, VITAMIN A PALMITATE, CARRAGEENAN, ZINC OXIDE, REDUCED IRON, GUAR GUM, VITAMIN B6 (PYRODOXINE HYDROCHLORIDE), VITAMIN B1 (THIAMIN HYDROCHLORIDE), VITAMIN B2 (RIBOFLAVIN), FILLING: INVERT SUGAR, CORN SYRUP, STRAWBERRY PUREE CONCENTRATE, GLYCERIN, SUGAR, MODIFIED CORN STARCH, SODIUM ALGINATE, CITRIC ACID, DICALCIUM PHOSPHATE, METHYLCELLULOSE, NATURAL AND ARTIFICIAL FLAVOR, CARAMEL COLOR, MALIC ACID, RED 40. CONTAINS WHEAT, MILK AND SOY INGREDIENTS."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal" : "Beverages",
+          "main" : "Beverages",
+          "timeStart" : 1455796800000,
+          "timeEnd" : 1456081200000,
+          "items" : [
+            {
+              "item" : "Gatorade",
+              "description" : "Most scientifically researched and game-tested way to replace electrolytes lost in sweat. Gatorade Thirst Quencher hydrates better than water, which is why it’s trusted by some of the world’s best athletes.",
+              "ingredients" : [
+                {
+                  "ingredient" : "Fruit Punch",
+                  "contains" : "WATER, LIQUID SUGAR, CITRIC ACID, SALT, SODIUM CITRATE, NATURAL AND ARTIFICIAL FLAVORS, MONOPOTASSIUM PHOSPHATE, SUCRALOSE (111 mg/591 mL), ACESULFAME POTASSIUM (21 md/591mL), COLOR"
+                },
+                {
+                  "ingredient" : "Lemon Lime",
+                  "contains" : "WATER, SUGAR, DEXTROSE, CITRIC ACID, NATURAL FLAVORS, SALT, SODIUM CITRATE, MONOPOTASSIUM PHOSPHATE, GUM ARABIL, ESTER GUM, COLOR"
+                },
+                {
+                  "ingredient" : "Orange",
+                  "contains" : "WATER, SUGAR, DEXTROSE, CITRIC ACID, NATURAL AND ARTIFICIAL FLAVORS, SALT, SODIUM CITRATE, MONOPOTASSIUM PHOSPHATE, GUM ARABIC, COLOR, ESTER GUM, BROMINATED  VEGETABLE OIL (CONTAINS SOYBEAN OIL). CONTAINS SOY INGREDIENTS"
+                }
+              ]
+            },
+            {
+              "item" : "Water",
+              "description" : "Generic filtered bottled water."
+            },
+            {
+              "item" : "Coffee",
+              "ingredients" : [
+                {
+                  "ingredient" : "Regular Coffee"
+                },
+                {
+                  "ingredient" : "Sugar"
+                },
+                {
+                  "ingredient" : "Powdered Creamer",
+                  "contains" : "CORN SYRUP SOLID, PARTIALLY HYDROGENATED SOYBEAN OIL, SODIUM CASEINATE (A MILK DERIVATIVE)*, DIPOTASSIUM PHOSPHATE, ARTIFICIAL COLOR, MONO- AND DIGLYCERIDES, SOY LECITHIN, ARTIFICIAL FLAVOR. CONTAINS MILK AND SOY INGREDIENTS."
+                },
+                {
+                  "ingredient" : "Equal 0 Calorie Sweetener",
+                  "contains" : "dextrose with maltodextrin, aspartame, acesulfame potassium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+]

@@ -1,0 +1,101 @@
+<div class="card-block">
+  <div class="alert alert-danger text-xs-center">
+    <p class="lead"><strong>A Valid Badge is Required to Enter the Staff Suite</strong></p>
+    <p>Staff Badge, Guest Badge, or Attendee Badge with Volunteer Ribbon is required. For volunteers with an Attendee badge, you will need to be signed up for at least 12 weighted hours and have worked your first shift or 6 hours to be eligible for free food.</p>
+  </div>
+  <div class="row">
+    <!-- Map -->
+    <div class="col-md-4">
+      <div class="card card-location card-inverse">
+        <img class="card-img-top" src="/img/map.png" alt="Map to room 5211 from Elevators">
+        <div class="card-block">
+          <h2 class="card-title">Location: Room 5211</h2>
+          <p class="card-text">This year's Staff Suite will be on the 5th floor of the hotel. We will have a balcony overlooking the atrium. Please be mindful of noise and keep the balcony clean should you choose to eat out there.</p>
+        </div>
+      </div>
+    </div>
+    <!-- END Map -->
+    <!-- Mini Menu -->
+    <div class="col-md-8 mini-menu">
+      <h2 class="sr-only">Menu</h2>
+      <div class="card-deck-wrapper menu-day" ng-repeat="day in menu | filter:{showDate:true}">
+        <div class="card-deck">
+          <div class="card card-inverse text-xs-center menu-meal menu-meal-{{meal.meal | lowercase}}" ui-sref=".menu-details({ dayid : $parent.$index, mealid : $index })" ng-click="mealDetails()" ng-repeat="meal in day.meals">
+            <p class="card-text text-muted">
+              {{meal.timeStart | date:'EEE':'EST'}} {{meal.meal}}
+              {{meal.timeStart | date:'ha':'EST' | lowercase}}-{{meal.timeEnd | date:'ha':'EST' | lowercase}}
+            </p>
+            <p class="card-title">{{meal.main}}</p>
+            <p class="card-text veg-option" ng-show="meal.vegOption.length">Veg Option : {{meal.vegOption}}</p>
+            <div class="card-footer">
+              <p class="card-text text-muted btm-click">Click for details&hellip;</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- END .card-deck-wrapper -->
+      <div class="text-xs-center">
+        <a ui-sref="menu" class="btn btn-sm btn-primary-outline">View full menu</a>
+      </div>
+    </div> <!-- END .mini-menu -->
+    <!-- END Mini Menu-->
+  </div>
+
+  <div class="row">
+    <!-- Galaxy Cafe Info -->
+    <div class="col-md-7">
+      <div class="card card-primary">
+        <div class="card-block card-inverse">
+          <h2 class="card-title">Galaxy Cafe</h2>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card card-info">
+                <p class="card-title text-xs-center">
+                  Breakfast<br>
+                  6:30 am - 8:00 am<br>
+                  $13.00
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card card-info">
+                <p class="card-title text-xs-center">
+                  Lunch<br>
+                  1:00 pm - 2:30 pm<br>
+                  $15.00
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card card-info">
+                <p class="card-title text-xs-center">
+                  Dinner<br>
+                  7:00 pm - 9:00 pm<br>
+                  $15.00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p class="small">The Galaxy Cafe is the Gaylord's cafeteria for its own staff. The Gaylord is generously allowing MAGFest Staff access to the Galaxy Cafe during the listed hours. This service is at the staffer's own cost and can only be accessed during the times listed above.</p>
+          <p class="small">To get to the Galaxy Cafe, go to the far back of the Maryland Ballroom foyer, then go through the doors and turn left. Just before you get to the Security desk in the hallway, look to your left and there will be a wide set of stairs going down. Go down those stairs and then the Galaxy Cafe will be on your right.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Food pick up blurb -->
+    <div class="col-md-5">
+      <h2 class="text-danger">On Shift During a Meal?</h2>
+      <p class="lead">Don't worry. You can still get food if you are unable to visit the Staff Suite because you are on shift. Just talk to your Department Head. They will take your order along with everyone else and send someone up to us to pick up food for everyone else.</p>
+      <p><a ui-sref="pickup" class="btn btn-lg btn-block btn-danger">Learn more&hellip;</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL -->
+  <div class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div ui-view></div>
+      </div>
+    </div>
+  </div>

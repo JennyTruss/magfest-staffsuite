@@ -1,0 +1,36 @@
+<div class="modal-header modal-menu-header menu-meal-{{meal.meal | lowercase}}">
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true" class="fa fa-times"></span>
+  </button>
+  <h2 class="modal-title" id="mainModalTitle">
+    {{day.title}}<span ng-if="day.showDate"> {{meal.meal}}</span><br>
+    <small ng-if="day.showDate">{{meal.timeStart | date}} {{meal.timeStart | date:'shortTime':'EST'}} &ndash; {{meal.timeEnd | date:'shortTime':'EST'}}</small>
+  </h2>
+</div>
+<div class="modal-body" id="mainModalBody">
+  <p class="h4">
+    <strong>{{meal.main}}</strong>
+    <span ng-bind-html="meal.foodPickup | pickupStatus" class="pull-right"></span>
+  </p>
+  <p ng-show="meal.vegOption.length">Vegetarian Option : {{meal.vegOption}}</p>
+  <p ng-show="meal.note.length">{{meal.note}}</p>
+
+  <div class="card-columns" ng-show="meal.items.length">
+    <div class="card card-block card-meal card-meal-{{meal.meal | lowercase}}" ng-repeat="item in meal.items">
+      <p class="card-title"><strong>{{item.item}}</strong></p>
+      <p ng-show="item.description.length" class="card-text small">{{item.description}}</p>
+      <p ng-show="item.ingredients.length" class="card-text">
+        <small><em>(Hover to see what is in each item)</em></small><br>
+        <span class="label label-pill label-default ingredient-label" ng-repeat="i in item.ingredients" title="{{i.contains | uppercase}}">{{i.ingredient}}</span>
+      </p>
+    </div>
+    <div class="card card-block card-meal-{{meal.meal | lowercase}}" ng-if="meal.snackItem">
+      <p class="card-title"><strong>Snack Item</strong></p>
+      <p class="card-text small">Choice of the below options</p>
+      <p class="card-text" ng-repeat="item in snack.items">
+        {{item.item}}<br>
+        <span class="label label-pill label-default ingredient-label" ng-repeat="i in item.ingredients" title="{{i.contains | uppercase}}">{{i.ingredient}}</span>
+      </p>
+    </div>
+  </div>
+</div>

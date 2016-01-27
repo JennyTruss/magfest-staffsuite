@@ -1,0 +1,279 @@
+html, body {
+  background-color : #363636;
+  height : 100%;
+}
+
+h2 {font-size:1.5rem;}
+
+#main-wrapper {
+  display : table;
+  height : 100%;
+  width : 100%;
+}
+
+#header-container,
+#body-container {
+  display : table-row;
+}
+
+#header, #body {
+  display : table-cell;
+}
+
+#header {
+  height : auto;
+  background-color : #000;
+  -webkit-box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 19px 2px rgba(0,0,0,0.75);
+}
+
+#header .text-hide {
+  background-image : url('/img/banner.png');
+  background-repeat : no-repeat;
+  background-position : center;
+  background-size : contain;
+  margin : 15px;
+  padding : 50px 25px;
+}
+
+.nav {
+  margin : 30px auto 10px;
+}
+
+.nav-link {
+  display : inline-block;
+  padding : 0px 30px;
+  color : rgba(255,255,255,0.4);
+  text-decoration: none;
+  font-size: 1.15rem;
+  line-height: 1;
+  border-left : solid 1px rgba(255,255,255,0.4);
+}
+.nav-link:first-child { border-left : none; }
+.nav-link:hover, .nav-link.active { color : #fabe57; }
+
+#body,
+#body > .container > .card {
+  height : 100%;
+}
+#body { vertical-align: middle; }
+
+#body > .container {
+  height : 93%;
+  margin : 20px auto;
+}
+
+#body > .container > .card > div > .card-block > .row {
+  margin-bottom : 1.75rem;
+}
+
+.card-header.page-title {
+  font-size : 2.2rem;
+  font-weight : bold;
+  background-color : transparent;
+  margin : 5px 15px;
+  padding-bottom : 0;
+}
+
+.card img {
+  max-width : 100%;
+}
+
+.card-primary .card {
+  margin : 0;
+}
+
+.card-info {
+  background-color : #20b2aa;
+  border-color : #20b2aa;
+  padding : 5px;
+}
+
+.card-info .card-title {
+  line-height: 1.2;
+  font-size : 0.9rem;
+  margin : 0;
+}
+
+.card-location {
+  background-color : #8b0000;
+  border-color : #8b0000;
+}
+
+.menu-day > .card-deck {
+  border-spacing : 0.75rem 0;
+  margin-bottom: 0.75rem;
+  width : 100%;
+}
+
+.menu-meal {
+  padding : 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.menu-meal p {
+  margin : 0;
+  line-height : 1;
+}
+.menu .menu-meal p {
+  margin-bottom : 10px;
+  line-height : 1.2;
+}
+
+.menu-meal > .card-title {
+  font-weight: bold;
+  margin : 5px 0;
+}
+
+.menu-meal > .veg-option {
+  font-size : 75%;
+}
+.menu .menu-meal > .veg-option {
+  font-size : 95%;
+}
+
+.menu-meal .text-muted {
+  font-size : 70%;
+}
+
+.menu .menu-meal .text-muted {
+  font-size : 100%;
+}
+
+.menu-meal > .card-footer {
+  border-top : 0;
+  padding : 7px 0;
+  background-color : transparent;
+  border-color : transparent;
+}
+.menu-meal > .card-footer > p {
+  position : absolute;
+  bottom : 2px;
+}
+.menu .menu-meal > .card-footer > p {
+  font-size : 80%;
+  margin : 0;
+}
+.card-meal {
+  padding : 0.85rem;
+}
+.card-meal .card-title {
+  margin-bottom : 0;
+}
+
+.menu-meal-breakfast {
+  background-color : #ff8c00;
+  border-color : #ff8c00;
+}
+.card-meal-breakfast {
+  background-color : #ffc680;
+  border-color : #ffc680;
+}
+.menu-meal-lunch {
+  background-color : #228b22;
+  border-color : #228b22;
+}
+.card-meal-lunch {
+  background-color : #5bd75b;
+  border-color : #5bd75b;
+}
+.menu-meal-dinner {
+  background-color : #000080;
+  border-color : #000080;
+}
+.card-meal-dinner {
+  background-color : #9999ff;
+  border-color : #9999ff;
+}
+.menu-meal-overnight {
+  background-color : #2f4f4f;
+  border-color : #2f4f4f;
+}
+.card-meal-overnight {
+  background-color : #afcfcf;
+  border-color : #afcfcf;
+}
+.menu-meal-snacks,
+.menu-meal-beverages {
+  background-color : #ff1493;
+  border-color : #ff1493;
+}
+.card-meal-snacks,
+.card-meal-beverages {
+  background-color : #ffb3dc;
+  border-color : #ffb3dc;
+}
+
+.modal-menu-header .modal-title {
+  color : #fff;
+  line-height: 1.1;
+}
+
+.modal-menu-header small {
+  font-size : 65%;
+  font-style : italic;
+}
+
+.ingredient-label {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.rules {
+  counter-reset : li;
+  list-style : none;
+  *list-style : decimal;
+  padding : 0;
+  margin-bottom : 4em;
+  text-shadow : 0 1px 0 rgba(255,255,255,.5);
+}
+
+.rules li {
+  position : relative;
+  padding : 2.5em 3.25em;
+  margin : 1.5em 2em;
+}
+
+.rules p {
+  position : relative;
+  z-index: 9;
+  margin : 0;
+}
+
+.rules li:before {
+  content : counter(li);
+  counter-increment : li;
+  position : absolute;
+  left : -.2em;
+  top : -.05em;
+  background : #fff8dc;
+  height : 4em;
+  width : 4em;
+  border : .2em solid rgba(0,0,0,.08);
+  text-align : center;
+  font : italic bold 1.5em/2em Georgia, Serif;
+  color : #444;
+  border-radius : 4em;
+  -moz-border-radius : 4em;
+  -webkit-border-radius : 4em;
+}
+
+@media (min-width:544px) {
+  .menu-meal { width : 25% !important; }
+}
+
+@media (max-width:543px) {
+  #header .text-hide {
+    margin : 0;
+    padding : 0;
+  }
+  #header .nav {
+    margin-top : 0;
+  }
+  .nav-link {
+    font-size : 0.95rem;
+    padding : 0px 5px;
+  }
+}
