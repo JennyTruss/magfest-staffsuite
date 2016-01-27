@@ -1,2 +1,4 @@
-# magfest-staffsuite
-Website for dispersing information about the MAGFest Staff Suite to Volunteers. Also performs admin functions such as badge checking.
+MAGFest 2016 Website
+
+Uses AngularJS and Bootstrap 4 alpha.
+As of 1/27/2016 contains menu, rules, location, on shift food process, and information about Galaxy Cafe.
