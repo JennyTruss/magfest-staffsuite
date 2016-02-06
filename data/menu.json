@@ -19,8 +19,80 @@
             "description" : "Variety of cereal options. To be determined.",
             "ingredients" : [
               {
-                "ingredient" : "",
-                "contains" : ""
+                "ingredient" : "Apple Jacks",
+                "contains" : "INGREDIENTS: SUGAR, CORN FLOUR BLEND (WHOLE GRAIN YELLOW CORN FLOUR, DEGERMINATED YELLOW CORN FLOUR), WHEAT FLOUR, WHOLE GRAIN OAT FLOUR, MODIFIED FOOD STARCH, OAT FIBER, SOLUBLE CORN FIBER, CONTAINS 2% OR LESS OF VEGETABLE OIL (HYDROGENATED COCONUT, SOYBEAN AND/OR COTTONSEED, PARTIALLY HYDROGENATED SOYBEAN AND/OR COTTONSEED), SALT, MILLED CORN, DRIED APPLES, APPLE JUICE CONCENTRATE, CORNSTARCH, CINNAMON, MODIFIED CORN STARCH, NATURAL FLAVOR, YELLOW 6, BAKING SODA, TURMERIC EXTRACT COLOR, BLUE 1, RED 40, BHT FOR FRESHNESS. VITAMINS AND MINERALS: VITAMIN C (SODIUM ASCORBATE AND ASCORBIC ACID), NIACINAMIDE, REDUCED IRON, ZINC OXIDE, VITAMIN B6 (PYRIDOXINE HYDROCHLORIDE), VITAMIN B2 (RIBOFLAVIN), VITAMIN A PALMITATE, VITAMIN B1 (THIAMIN HYDROCHLORIDE), FOLIC ACID, VITAMIN B12, VITAMIN D3."
+              },
+              {
+                "ingredient" : "Cheerios",
+                "contains" : "Ingredients: Whole Grain Oats, Corn Starch, Sugar, Salt, Tripotassium Phosphate, Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin A (palmitate), Vitamin B1 (thiamin mononitrate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              },
+              {
+                "ingredient" : "Cinnamon Chex - Gluten Free",
+                "contains" : "Ingredients: Whole Grain Rice, Rice, Sugar, Fructose, Canola Oil, Salt, Cinnamon, Molasses, Vitamin E (mixed tocopherols) and BHT Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              },
+              {
+                "ingredient" : "Cinnamon Toast Crunch",
+                "contains" : "Ingredients: Whole Grain Wheat, Sugar, Rice Flour, Rice Bran and/or Canola Oil, Fructose, Maltodextrin, Dextrose, Salt, Cinnamon, Trisodium Phosphate, soy Lecithin, Caramel Color, BHT Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              },
+              {
+                "ingredient" : "Cocoa Krispies",
+                "contains" : "Rice, sugar, cocoa processed with alkali, contains 2% or less of semisweet chocolate (sugar, chocolate, dextrose), partially hydrogenated vegetable oil (coconut, soybean and/or cottonseed), salt, malt flavoring, artificial flavor, BHT for freshness. Vitamins and Minerals: Calcium carbonate, vitamin C (ascorbic acid and sodium ascorbate), iron, vitamin E (alpha tocopherol acetate), niacinamide, zinc oxide, vitamin A palmitate, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), folic acid, vitamin D, vitamin B12. "
+              },
+              {
+                "ingredient" : "Cocoa Puffs",
+                "contains" : "Ingredients: Whole Grain Corn, Sugar, Corn Meal, Corn Syrup, Canola and/or Rice Bran Oil, Cocoa Processed with Alkali, Caramel Color, Salt, Fructose, Trisodium Phosphate, Natural Flavor. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              },
+              {
+                "ingredient" : "Corn Flakes",
+                "contains" : "Milled corn, sugar, malt flavor, contains 2% or less of salt. BHT added to packaging for freshness. Vitamins and Minerals: Iron, vitamin C (sodium ascorbate, ascorbic acid), niacinamide, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin D, vitamin B12."
+              },
+              {
+                "ingredient" : "Corn Pops",
+                "contains" : "Ingredients: Milled corn, sugar, soluble corn fiber, contains 2% or less of molasses, salt, hydrogenated coconut and soybean oil, wheat starch, annatto color, BHT for freshness. Vitamins and Minerals: Vitamin C (sodium ascorbate and ascorbic acid), niacinamide, zinc oxide, reduced iron, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin D, vitamin B12. "
+              },
+              {
+                "ingredient" : "Froot Loops",
+                "contains" : "Ingredients: Sugar, corn flour blend (whole grain yellow corn flour, degerminated yellow corn flour), wheat flour, whole grain oat flour, oat fiber, modified food starch, soluble corn fiber, contains 2% or less of hydrogenated vegetable oil (coconut, soybean and/or cottonseed), salt, natural flavor, red 40, turmeric extract color, yellow 6, blue 1, annatto extract color, BHT for freshness. Vitamins and Minerals: Vitamin C (sodium ascorbate and ascorbic acid), niacinamide, reduced iron, zinc oxide, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin B12, vitamin D3."
+              },
+              {
+                "ingredient" : "Frosted Flakes",
+                "contains" : "Milled corn, sugar, contains 2% or less of malt flavor, salt, BHT for freshness. Vitamins and Minerals: Iron, vitamin C (ascorbic acid and sodium ascorbate), niacinamide, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin D, vitamin B12."
+              },
+              {
+                "ingredient" : "Frosted Mini Wheats Bite Size",
+                "contains" : "Whole grain wheat, sugar, contains 2% or less of brown rice syrup, gelatin, BHT for freshness. Vitamins and Minerals: Reduced iron, niacinamide, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), zinc oxide, folic acid, vitamin B12. "
+              },
+              {
+                "ingredient" : "Honey Nut Cheerios",
+                "contains" : "Ingredients: Whole Grain Oats, Sugar, Oat Bran, Corn Starch, Honey, Brown Sugar Syrup, Salt, Tripotassium Phosphate, Rice Bran Oil and/or Canola Oil, Natural Almond Flavor. Vitamin E (mixed tocopherols) Added to Preserve Fresness. Vitamins and Minerals: Calcium Carbonate, Zinc and Iron (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hyrdrochloride), Vitamin B2 (riboflavin), Vitamin B1 (thiamin mononitrate), Vitamin A (palmitate), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              },
+              {
+                "ingredient" : "Lucky Charms",
+                "contains" : "Ingredients: Whole Grain Oats, Marshmallows (sugar, modified corn starch, corn syrup, dextrose, gelatin, calcium carbonate, yellows 5&6, blue 1, red 40, artificial flavor), sugar, Oat Flour, Corn Syrup, Corn Starch, Salt, Trisodium Phosphate, Color Added, Natural and Artificial Flavor. Vitamin E (mixed tocopherois) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              },
+              {
+                "ingredient" : "Nature Valley Low Fat Fruit Granola",
+                "contains" : "Ingredients: Whole Grain Oats, Sugar, Crisp Rice (rice flour, barley malt extract, salt), Raisins, Refiner's Syrup, Dates, Glycerin, Sunflower Oil, Dextrose, Salt, Baking Soda, Citric Acid, Crushed Oranges, Cinnamon, Sunglower Oil, Natural Flavor. May Contain Wheat Ingredients."
+              },
+              {
+                "ingredient" : "Raisin Bran Crunch",
+                "contains" : "Whole grain wheat, sugar, raisins, rice, wheat bran, whole grain oats, brown sugar syrup, glycerin, contains 2% or less of corn syrup, salt, malt flavor, modified corn starch, molasses, palm oil, cinnamon, honey, natural and artificial flavor, BHT for freshness. Vitamins and Minerals: Niacinamide, reduced iron, vitamin C (ascorbic acid and sodium ascorbate), zinc oxide, vitamin B6 (pyridoxine hydrochloride), vitamin A palmitate, vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), folic acid, vitamin B12, vitamin D3."
+              },
+              {
+                "ingredient" : "Rice Chex - Gluten Free",
+                "contains" : "Ingredients: Whole Grain Rice, Rice, Sugar, Salt, Molasses, Vitamin E (mixed tocopherols) and BHT Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc (mineral nutrients), Vitamin C (sodium ascorbate), A B Vitamin (niacinamide), Vitamin B6 (pyridoxine hydrochloride), Vitamin A (palmitate), Vitamin B2 (riboflavin), A B Vitamin (folic acid), Vitamin B12, Vitamin D3."
+              },
+              {
+                "ingredient" : "Rice Krispies",
+                "contains" : "Rice, sugar, contains 2% or less of salt, malt flavor. BHT added to packaging for freshness. Vitamins and Minerals: Iron, vitamin C (ascorbic acid), vitamin E (alpha tocopherol acetate), niacinamide, vitamin A palmitate, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), folic acid, vitamin B12, vitamin D. "
+              },
+              {
+                "ingredient" : "Smart Start Antioxidants",
+                "contains" : "Rice, whole grain wheat, sugar, whole grain rolled oats, brown sugar syrup, contains 2% or less of corn syrup, rice flour, salt, malt flavor, honey, yellow 5, artificial flavor, cinnamon, BHT for freshness. Vitamins and Minerals: Vitamin A palmitate, niacinamide, iron, zinc oxide, calcium pantothenate, vitamin C (sodium ascorbate, ascorbic acid), beta-carotene, vitamin B6 (pyridoxine hydrochloride), vitamin D3, vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), vitamin E (alpha tocopherol acetate), folic acid, vitamin B12."
+              },
+              {
+                "ingredient" : "Special K",
+                "contains" : "Rice, wheat gluten, sugar, defatted wheat germ, contains 2% or less of salt, whey, malt flavor, calcium caseinate. Vitamins and Minerals: Vitamin C (ascorbic acid), reduced iron, niacinamide, vitamin B6 (pyridoxine hydrochloride), vitamin B1 (thiamin hydrochloride), vitamin B2 (riboflavin), folic acid, vitamin A palmitate, vitamin B12, vitamin D3."
               }
             ]
           },
@@ -107,7 +179,10 @@
             "description" : "Vegetarian Option in place of Pork."
           },
           {"item" : "Corn"},
-          {"item" : "Long Grain Rice"}
+          {
+            "item" : "Calrose Rice",
+            "description" : "Extra Fancy Medium Grain"
+          }
         ]
       },
       {
@@ -137,7 +212,10 @@
             "description" : "Vegetarian Option in place of Pork."
           },
           {"item" : "Corn"},
-          {"item" : "Long Grain Rice"}
+          {
+            "item" : "Calrose Rice",
+            "description" : "Extra Fancy Medium Grain"
+          }
         ]
       }
     ]
@@ -304,7 +382,8 @@
             ]
           },
           {
-            "item" : "Long Grain Rice"
+            "item" : "Calrose Rice",
+            "description" : "Extra Fancy Medium Grain"
           }
         ]
       },
@@ -376,7 +455,8 @@
             ]
           },
           {
-            "item" : "Long Grain Rice"
+            "item" : "Calrose Rice",
+            "description" : "Extra Fancy Medium Grain"
           }
         ]
       }
@@ -506,7 +586,14 @@
           },
           {
             "item" : "Grilled Tofu",
-            "description" : "Vegetarian Option in place of Beef. Sliced thin."
+            "description" : "Vegetarian Option in place of Beef. Sliced thin and marinated in Tamari Sauce.",
+            "ingredients" : [
+              {"ingredient" : "Tofu"},
+              {
+                "ingredient" : "Tamari Sauce",
+                "contains" : "50% less sodium. Water, Soybeans, Salt, Alcohol (to preserve freshness), Rice Vinegar, Lactic Acid."
+              }
+            ]
           },
           {
             "item" : "Mash Potatoes",
@@ -552,7 +639,14 @@
           },
           {
             "item" : "Grilled Tofu",
-            "description" : "Vegetarian Option in place of Beef. Sliced thin. Marinade and seasoning to be determined."
+            "description" : "Vegetarian Option in place of Beef. Sliced thin and marinated in Tamari Sauce.",
+            "ingredients" : [
+              {"ingredient" : "Tofu"},
+              {
+                "ingredient" : "Tamari Sauce",
+                "contains" : "50% less sodium. Water, Soybeans, Salt, Alcohol (to preserve freshness), Rice Vinegar, Lactic Acid."
+              }
+            ]
           },
           {
             "item" : "Mash Potatoes",
@@ -615,7 +709,10 @@
             "item" : "Rice Pudding",
             "description" : "Contains eggs and dairy",
             "ingredients" : [
-              {"ingredient" : "Long Grain Rice"},
+              {
+                "ingredient" : "Calrose Rice",
+                "contains" : "Extra Fancy Medium Grain"
+              },
               {
                 "ingredient" : "Extra Light Olive Oil",
                 "contains" : "Olive Oil - Composed of Refined Olive Oils and Virgin Olive Oils. Product Contains Select High Quality Olive Oils from Italy, Greece, Spain & Tunisia."
